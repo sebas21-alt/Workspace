@@ -1,0 +1,15 @@
+23/07/2025
+por persona
+- crear un repositorio publico en git hub que se llame work space
+- agregar todos los documentos de  workspace a este repositorio
+
+por grupo
+- uno de los integrantes del grupo crear un repositorio publico en git hub
+con el nombre PPI, en este repositorio agregar los archivos que se
+han construido hasta el momento el proyecto el PPI.
+-El creador de este repositorio agrega a sus compañeros
+a este proyecto. Con todos los permisos necesarios para
+agregar y modificar.
+
+-Por persona  cambiar su github para que sea github de estudiante
+github.com/ education

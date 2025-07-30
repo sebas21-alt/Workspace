@@ -1,0 +1,25 @@
+1:24 p. m. 6/06/2025
+consultar que es el modelo de caja en css (boxmodel)
+R:es un concepto fundamental que describe cómo los elementos HTML se presentan como cajas rectangulares en la página web, con propiedades que definen su tamaño, posición y espaciado
+
+Que sistemas de medida se usan en css
+R:
+-relativas:se basan en el tamaño de otros elementos o en la ventana de visualización del navegador
+-Absolutas:son las unidades de medida en CSS que realizan alusión a las unidades que no cambian, aquellas que en todos los entornos son equivalentes.
+
+Ejercicio 1
+Explicar los sistemas de mediadas en css en un archivo HTML
+debe llevar al menos 3 encabezados (titulos H1)
+a todos lo h1 aplicar estilos donde el color sea gris
+al primer h1 asignarle un id y aplicar el color azul
+a los demas h1 asiganrles un class
+y para este class poner un color de fondo pastel
+
+los textos explicativos debe de ir en la tienda P
+para todos los P asignar un  color de fondo
+
+Ejercicio 2
+construir un html que tenga 2 divs
+en el primner div incluir un encabezado h1 con letra gris
+en el segundo div incluir un parrafo con letra naranja
+fuera de los dos divs incluir parrafo y h1 sin modificaciones 
