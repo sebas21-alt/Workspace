@@ -1,0 +1,36 @@
+1:46 p. m. 30/07/2025
+consulta
+-¿Que es un framework CSS en un diseño web?
+R:Un framework CSS es una colección predefinida de estilos, componentes y reglas CSS que facilitan el desarrollo web. 
+En lugar de escribir código CSS desde cero, los frameworks ofrecen una base con estilos y estructuras ya listas, 
+como sistemas de cuadrícula, componentes de interfaz de usuario y estilos para elementos comunes como botones y tipografía.
+Esto permite a los desarrolladores crear sitios web de manera más rápida, consistente y eficiente.
+
+-¿que es bootstrap en diseño web?
+
+R:Bootstrap es un framework CSS de código abierto para desarrollo web que facilita la creación de diseños responsivos y atractivos.
+ Proporciona una colección de componentes y herramientas pre-diseñadas, como sistemas de cuadrícula, botones, formularios y barras de navegación, 
+que permiten a los desarrolladores construir sitios web y aplicaciones web de manera más rápida y eficiente. 
+
+-identificar 2 sitios hechos con bootstrap, listarlos e inspeccionar la
+linea de codigo donde este claro que estos stios usan bootstrap
+===================================================================================================================================================
+Ejercicio 2
+seleccion una tema de interes
+
+-Dar 3 descripciones en el componete acordeon
+R/
+
+-mostrar 3 imagenes en un carrusel
+todo usando bootstrap
+
+
+
+Ejercicio 2.2
+poner el carrusel en frente del acordeon
+<div class="container-4">
+     <div class="row">
+      <div class="col-4">codigo de acordeon</div>
+      <div class="col-4">codigo de carrusel¿bv</div>
+</div>
+</div>

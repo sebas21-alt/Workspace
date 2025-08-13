@@ -1,0 +1,37 @@
+1:36 p. m. 11/07/2025
+Construir un html si CSS
+- Realizar una lista de 15 estudiantes usando una lista ordenada, agregar
+3 notas por estudiante. (el caracter es util para se´parar notas)
+<ol>
+	<il>fulanito de tal 3 4 5</il>
+	<il>fulanito de tal 3 4 5</il>
+</ol>
+-Realizar esta misma lista en parte de abajo, pero sin usar
+la etiqueta de listas ordenadas.
+El objetivo del ejercicio es hacer que las 2 listas se vean identicas o
+muy parecidas; para mejorar habilidades de diseño.
+===========================================================================================================
+Ejercicio 2
+Construir un HTML y su respectivo CSS.
+objeto: usar CSS anidado.
+crear una lista de 11 contactos usando un div por cada contacto, dentro
+del div agregar un h1 para el hombre, un link (etiqueta a) para el correo
+y un escoger a elección la etiqueta para el numero de telefono.
+crear 3 clases de CSS: contacto, titulo y div. titulo
+en contacto hacer personalizacion deseadas, pero agregar
+. contacto {display: inline-block; y ancho de 30% }
+.titulo{
+	cambio tipo de fuente
+	color de letra y color de fondo
+}
+div. titulo{no cambiar tipo de fuente, escoger colores diferentes}
+¿Que color se aplica al titulo y cual a los nombres?
+¿Cambio el tipo de letra en los nombres de contacto?
+ 
+==========================================================================================
+¿Que es diseño responsivo?
+¿Que es un grid en diseño resposivo?
+¿Que dispositivos se deben de tener en cuenta en diseño responsivo?
+¿Aplica el diseño resposivo segun en navegador?
+¿Que  es flexBox en diseño responsivo?
+

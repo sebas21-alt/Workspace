@@ -1,0 +1,22 @@
+9/07/2025
+
+ejercicio 1
+construir un html con su respectivo css
+1.1  usando tablas hacer un calendario de labores del dia,
+donde se muestre en una columna y las tareas en la siguientes columna.
+<table> <tr><td>celda 11 </td><td>celda 12</td></tr>
+               <tr><td>celda 21 </td><td>celda 22</td></tr>	
+1.2 repetir el mismo ejercicio usando listas
+<ul><li>primer elemento </li></ul>
+              <li> segundo elemento</li> </ul>
+1.3  Dentro de cada elemento de la lista usar un div, dentro de esta div
+agregar una etiqueta p para la hora, y una etiqueta span para la tarea
+<ul><li><div><p>hora</p><span>tarea</span></div><lil>
+        <li><div><p>hora</p><span>tarea</span></div><lil></ul>
+
+1.4 Agregar CSS para estas estructuras
+crear mlas siguientes clase en css: hora 1: color de fondo pastel;
+hora 2: color de fondo verde; tarea1:color fondo gris;
+-para todas las clases escoger color de texto  que contraste con el color de fondo.
+-las clases debe usar display: inline-block para que quede ordenadas
+- los colores deben de aplicarse de manera intercalada

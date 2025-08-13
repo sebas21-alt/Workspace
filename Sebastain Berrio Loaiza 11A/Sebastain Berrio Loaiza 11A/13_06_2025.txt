@@ -1,0 +1,24 @@
+13/06/2025
+Ejercicio 1
+Construir un HTML con su respectivs hoja de estilos
+
+- Hacer un calendario de cumpleaños
+- Debe ser 12 div´scon al menos 2 cumpleaños por mes
+- usar display: inline-block y jugar con width and heigth
+para obtener una distribución deseada, usar porcentajes en el alto y ancho
+- escoger colores y fondos
+-se debe realizar solo 2 colores clases css para poder tener los cuadros
+con colores y estilos intercalarados
+
+ejercicio 2
+contruir un HTML con su respectivo CSS
+
+- crear un listado de productos (16)
+-cada producto debe de tener imagen, nombre y precio
+y un boton agregar al carrito
+-pensar en una distribucion adecuada
+-crear una clase para el producto
+- crear una clase para imgane de tal manera que todas
+las imagenes tengan el mismo tamaño
+- crear una casrpeta de imagenes
+y usar direcciones relativas

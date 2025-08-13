@@ -1,0 +1,31 @@
+Ejercicio 1
+construir un HTML y su respectiva hoja de estilos
+dentro de cada div agregar texto
+- Crear un div agregar una id y con css modificar
+el color y el tamaño del margin
+- Crear un div agregar una id y con css modificar el color y el tamaño del paddig
+border-style:solid
+- Crear un div agregar id y con css modificar el color y el tamaño del border
+border-style:dotted
+
+Ejercicio 2
+Construir un html y su respectiva hoja de estilos
+- Crear una tabla 3x3 con un sentimieto en cada celda, asignar un id con el
+nombre del sentimeto
+- para los negativos border dotted
+-para positivos hacerlo en border solid
+- asignar un color de border que contaste
+-dependiendo del sentimieto cambiar el padding
+y margin, hacerlo diferente para cada lado
+
+Ejercicio 3
+construir un html con su respectiva hoja de estilos.
+- Explicar reglas de un deporte
+-h1 con titulo del deporte
+-h2 sistema de puntos
+-incluir un div con el objetivo principal para ganar
+este div debe ir en el bloque  y márgenes acordes
+- h2 reglas básicas
+- 3 div's con la misma clase css, donde se expliquen
+1 regla por div, agregar márgenes acorde
+estos divs de ir en inline

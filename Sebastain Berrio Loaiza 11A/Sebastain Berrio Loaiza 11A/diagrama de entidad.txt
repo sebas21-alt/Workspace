@@ -1,0 +1,83 @@
+
+-elementos del diagrama entidad relación
+R// 
+*Rectángulos:Los rectángulos representan las entidades padre. Suelen tener entidades débiles (rectángulos dobles) 
+que dependen de ellas.
+*Ovalos:Los atributos se representan mediante óvalos. Describen las características de una entidad.
+*Rombos:Los rombos se utilizan para mostrar las relaciones entre entidades.
+*Flecha y lineas de conexion:Las líneas y flechas sirven para indicar las relaciones entre entidades.
+*Cardinalidades:Las cardinalidades indican la cantidad de información que fluye de una entidad a otra
+ (más información sobre este tema más adelante).
+
+
+-conceptos
+	*clave primaria:columna o conjunto de columnas que identifica de forma única cada fila en una tabla. 
+	Sirve para asegurar la integridad de la entidad, garantizando que cada registro en la tabla sea distinguible de los demás. 
+
+	*clave foranea:Una clave foránea, en el contexto de bases de datos relacionales, es una columna 
+	(o conjunto de columnas) en una tabla que se utiliza para establecer una relación con otra tabla. 
+	Esta columna contiene valores que son claves primarias (o claves candidatas) de otra tabla, 
+	creando un enlace entre las dos. 
+
+	*clave compuesta:combinación de dos o más columnas en una tabla que, juntas, identifican de forma única cada fila de esa tabla
+
+-tipos de datos en sql
+R//
+*INTEGER: enteros de tamaño estandar
+SMALLINT:numeros pequeños
+TINYINT:Enteros muy pequeños (solo algunos motores como SQL Server).
+BIGINT:Enteros grandes.
+======================================================================================================================
+3:24 p. m. 21/05/2025
+consultar  como insertar datos en una tabla en MYSQL
+usabdi lenguaje SQL
+
+insertar 4 grupos
+insert into grupo (id_grupo,nombre_grupo)
+values (1, ´grupo A´)
+
+insertar 20 estudiantes (5 por grupo)
+insertinto estudiantil (id_ estudiante, nombre, apellido, id_grupo)
+values (1 ´Ana´ ´Martinez´, 1)
+
+
+insertar 6 salones
+
+Respuestas :Para insertar datos en una tabla de MySQL, se utiliza la sentencia "insert"
+ "into"  Primero se especifica el nombre de la tabla donde se insertarán los datos, luego se listan las columnas a las que se asignarán valores
+=========================================================================================================
+8:38 a. m. 28/05/2025
+
+3 formas de inclusion de estilos HTML
+
+que son direcciones rerlativa de archivos y
+como funcionan cundo se incluye una imagen
+o cualquier otro archivo al HTML
+
+buscar que son elemetos en bloque (block)
+y elemtos en linea (inline) en HTML
+
+R/
+- estilo en linea
+-estilo incrustado
+-enlace externo
+
+R/
+¿que son las direcciones relativas y como funcionan?:
+-Es una ruta que depende de la ubicación del archivo actual en lugar de una ruta absoluta (como una URL completa o una ruta desde la raíz del sistema).
+
+-Ubicacion relativa:
+Cuando incluyes imágenes, archivos CSS, JavaScript, videos, etc., puedes usar direcciones relativas para mantener el proyecto organizado y portátil.
+
+pegar image96+
+<img src="img/logo.png" alt="Logo">
+
+
+R/los elementos de bloque comienzan una nueva línea y ocupan todo el ancho disponible de su contenedor. Los elementos en línea, por otro lado, 
+se mantienen en la misma línea con otros elementos y solo ocupan el espacio necesario. 
+--------------------------------------
+hacer un HTML y añadirle 2 imagenes
+añadir estas mismas 2 imaens con rutas  absolutas
+
+crear una carpe workspace en drive para guardar
+ejemplos HTML

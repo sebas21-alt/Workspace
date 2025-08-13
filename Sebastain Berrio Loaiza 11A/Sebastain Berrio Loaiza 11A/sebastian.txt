@@ -1,0 +1,20 @@
+4/06/2025
+Ejercicio 1
+
+crea una tabla de 4x4 y en cada celda
+poner el nombre de un color y su equivalente hexadecimal
+
+- por cada celda agregale una id con el nombre del color
+-crear un archivo de archivo de estilos e importalo al documento
+-crea un css para cambiar el color de cada celda con el color correspondiente
+
+Ejercicio 2
+
+hacer una tabla de 3 columnas y 4 filas
+-agregar encabezadom <th> 
+nombre, apellido y edad
+-crear un Id para el encabezado con color de fondo
+negro y color de letra blanco
+- crear dos clases fila azuly fila gris donde el color
+de fondo es el azul y el gris respectivamente
+aplicar el azul a filas pares y gris en filas impares

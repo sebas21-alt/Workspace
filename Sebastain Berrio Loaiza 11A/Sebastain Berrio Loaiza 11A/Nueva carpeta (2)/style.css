@@ -1,0 +1,64 @@
+/* Diseño general */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #19c6f1;
+}
+
+/* Encabezado */
+header {
+  background-color: #18e7e7;
+  padding: 15px;
+  text-align: center;
+}
+
+.menu {
+  color: white;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Barra de navegación */
+.barra {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #444;
+  display: flex;
+  justify-content: center;
+}
+
+.barra li {
+  margin: 0 15px;
+}
+
+.barra a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  padding: 14px 10px;
+  transition: all 0.3s ease;
+}
+
+.barra a:hover {
+  font-size: 22px;
+  color: #ff6600;
+}
+
+/* Contenido principal */
+div {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  max-width: 600px;
+  margin: auto;
+  font-size: 16px;
+  color: #555;
+}

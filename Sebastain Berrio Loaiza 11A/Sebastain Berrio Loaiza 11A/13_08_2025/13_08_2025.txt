@@ -1,0 +1,8 @@
+1:27 p. m. 13/08/2025
+Ejercicio 1
+- Por persona diseñar el home de la PPI, siguiendo los colores
+del manual corporativo
+-Debe incluir:
+	menu,carrusel como imagen de promocion del aplicativo
+	integrantes del equipo
+	footer con informacion del proyecto

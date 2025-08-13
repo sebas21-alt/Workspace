@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas de Estudiantes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #c42828;
+        }
+
+        h1 {
+            color: #1a6da5;
+            text-align: center;
+        }
+
+        h2 {
+            color: #666;
+            margin-top: 30px;
+
+        }
+
+        /* Lista ordenada normal */
+        ol {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        ol li {
+            margin-bottom: 8px;
+            padding: 5px;
+            background: #f9f9f9;
+            border-radius: 4px;
+        }
+
+        /* Lista falsa - sin etiquetas de lista */
+        .lista-falsa {
+            background: rgb(21, 173, 219);
+            padding: 20px;
+            border-radius: 8px;
+            counter-reset: contador;
+        }
+
+        .estudiante {
+            counter-increment: contador;
+            margin-bottom: 8px;
+            padding: 5px;
+            background: #f9f9f9;
+            border-radius: 4px;
+        }
+
+        .estudiante::before {
+            content: counter(contador) ". ";
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejercicio de Listas</h1>
+    
+    <h2>1. Lista con etiqueta ordenada (ol)</h2>
+    <ol>
+        <li>Juan Pérez | 8 | 7 | 9</li>
+        <li>María García | 9 | 8 | 7</li>
+        <li>Carlos López | 6 | 8 | 9</li>
+        <li>Ana Martínez | 7 | 9 | 8</li>
+        <li>Pedro Rodríguez | 8 | 6 | 7</li>
+        <li>Laura Sánchez | 9 | 9 | 8</li>
+        <li>Diego Morales | 7 | 8 | 6</li>
+        <li>Sofía Jiménez | 8 | 9 | 9</li>
+        <li>Miguel Torres | 6 | 7 | 8</li>
+        <li>Carmen Ruiz | 9 | 8 | 8</li>
+        <li>Roberto Silva | 7 | 7 | 9</li>
+        <li>Lucía Herrera | 8 | 9 | 7</li>
+        <li>Andrés Vega | 6 | 8 | 8</li>
+        <li>Valentina Cruz | 9 | 7 | 9</li>
+        <li>Fernando Díaz | 7 | 8 | 7</li>
+    </ol>
+
+    <h2>2. Lista SIN etiquetas de lista (solo div)</h2>
+    <div class="lista-falsa">
+        <div class="estudiante">Juan Pérez | 8 | 7 | 9</div>
+        <div class="estudiante">María García | 9 | 8 | 7</div>
+        <div class="estudiante">Carlos López | 6 | 8 | 9</div>
+        <div class="estudiante">Ana Martínez | 7 | 9 | 8</div>
+        <div class="estudiante">Pedro Rodríguez | 8 | 6 | 7</div>
+        <div class="estudiante">Laura Sánchez | 9 | 9 | 8</div>
+        <div class="estudiante">Diego Morales | 7 | 8 | 6</div>
+        <div class="estudiante">Sofía Jiménez | 8 | 9 | 9</div>
+        <div class="estudiante">Miguel Torres | 6 | 7 | 8</div>
+        <div class="estudiante">Carmen Ruiz | 9 | 8 | 8</div>
+        <div class="estudiante">Roberto Silva | 7 | 7 | 9</div>
+        <div class="estudiante">Lucía Herrera | 8 | 9 | 7</div>
+        <div class="estudiante">Andrés Vega | 6 | 8 | 8</div>
+        <div class="estudiante">Valentina Cruz | 9 | 7 | 9</div>
+        <div class="estudiante">Fernando Díaz | 7 | 8 | 7</
