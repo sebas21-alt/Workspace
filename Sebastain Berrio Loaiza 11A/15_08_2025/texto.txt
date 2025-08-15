@@ -1,0 +1,20 @@
+1:20 p. m. 15/08/2025
+https://www.eniun.com/contenedores-filas-columnas-bootstrap-5
+
+Ejercicio 1
+realizar los ejemplos de 6.2
+agregar color de fondo a cada columna style="Back...."
+
+Ejercicio 2
+Constuir un html agregando bootstrap.
+agregar 2 filas
+- en filas agregar 4 columnas igualmnete destribuirlas para pantalla
+y medianas y grandes y dios columnas para pantallas pequeñas
+
+- en la segunda fila 3 columnas igualmente distribuidas en pantallas grandes
+y medianas y una columna para pantallas pequeñas.
+
+==========================================================================================================================================
+trabjar en el PPI
+
+pasar todo el diseño de la aplicacion a bootstrap
