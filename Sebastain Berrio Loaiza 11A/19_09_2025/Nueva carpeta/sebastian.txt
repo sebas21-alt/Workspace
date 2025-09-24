@@ -1,0 +1,9 @@
+ejercicio 1
+imprimir los numeros pares del
+2 al 100 en el html, separados
+por un hr entre cada uno
+
+ejercicio 2
+construir con HTML con 3 botones uno
+que muestre tu nombre otro que muestre 10
+numeros y el ultimo cambia el color de fondo
