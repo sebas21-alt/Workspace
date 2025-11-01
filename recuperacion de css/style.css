@@ -1,0 +1,213 @@
+body{
+    width: auto;
+    padding: auto;
+    height: auto;
+    background-color: rgb(195, 228, 138);
+}
+
+.ojo_1{
+   border-radius: 60%;
+    background-color: #00ffdd;
+    height: 90px;
+    width: 90px;
+    position: 70px;
+    position: absolute;
+    display: flex;
+    transform: translate(715%, 200%);
+    z-index: 2;
+    border: solid black;
+
+}
+.ojo_2{
+    border-radius: 60%;
+    background-color: #00ffdd;
+    height: 90px;
+    width: 90px;
+    position: 70px;
+    position: absolute;
+    display: flex;
+    transform: translate(490px, 200%);
+    z-index: 2;
+    border: solid black;
+}
+
+.cara{
+border-radius: 0px;
+background-color: gray;
+height: 370px;
+width: 370px;
+display: flex;
+transform: translate(120%, 20%);
+position: relative;
+z-index: 1;
+box-shadow: 600px;
+border: solid black;
+}
+
+.boca{
+  width: 220px;
+  height: 50px;
+  position: relative;
+  border-left: 30px solid transparent;
+  border-right: 50px solid transparent;
+  background: linear-gradient(to right, rgb(0, 213, 255), rgb(0, 81, 255), rgb(60, 0, 128));
+  z-index: 2;
+  display: flex;
+  transform: translate(230%, 22%);
+  border: solid black;
+}
+
+.nariz{
+  width: 0;
+  height: 0;
+  border-left: 55px solid transparent;   
+  border-right: 55px solid transparent;  
+  border-bottom: 100px solid greenyellow; 
+  position: relative;
+  transform: translate(535%, -165%);
+  z-index: 2;
+}
+.oreja_1{
+     border-radius: 60%;
+    background-color:gray;
+    height: 90px;
+    width: 90px;
+    position: 70px;
+    display: flex;
+    transform: translate(420%, -450%);
+    z-index: 1;
+    border: solid black;
+
+}
+.oreja_2{
+     border-radius: 60%;
+    background-color:gray;
+    height: 90px;
+    width: 90px;
+    position: 70px;
+    display: flex;
+    transform: translate(800%, -550%);
+    z-index: 1;
+    border: solid black;
+}
+
+.linea {
+  width: 60px;     
+  height: 4px;        
+  background-color: black;
+  position: absolute;
+  top: 20%;
+  left: 63.9%;
+  transform: translate(-100%, -50%); 
+  transform: rotate(-40deg);
+  z-index: 1;
+}
+
+.linea_1{
+ width: 60px;     
+  height: 4px;        
+  background-color: black;
+  position: absolute;
+  top: 20%;
+  left: 35.7%; 
+  transform: translate(-200%, -50%) rotate(40deg); 
+  z-index: 1;
+}
+
+.antena_1{
+  width: 90px;
+  height: 90px;
+  border-radius: 60%;
+  background-color: #ff0000;
+  border: 2px solid black;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  transform: translate(300%, -160%);
+  z-index: 2;
+}
+
+.antena_2{
+    width: 90px;
+  height: 90px;
+  border-radius: 60%;
+  background-color: #ff0000;
+  border: 2px solid black;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  transform: translate(-330%, -160%);
+  z-index: 2;
+}
+.torso {
+  width: 500px;
+  height: 500px;
+  background-color: gray;
+  position: absolute;
+  top: 70%;
+  left: 29%;
+  border: 4px solid black;
+}
+
+.boton_1{
+   width: 50px;
+  height: 50px;
+  border-radius: 60%;
+  background-color: #33ff00;
+  border: 2px solid black;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  transform: translate(-350%, 500%);
+  z-index: 1;
+}
+
+.boton_2{
+   width: 50px;
+  height: 50px;
+  border-radius: 60%;
+  background-color: yellow;
+  border: 2px solid black;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  transform: translate(-240%, 500%);
+  z-index: 1;
+}
+
+.boton_3{
+   width: 50px;
+  height: 50px;
+  border-radius: 60%;
+  background-color: red;
+  border: 2px solid black;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  transform: translate(-130%, 500%);
+  z-index: 1;
+}
+
+.medidor{
+   width: 400px;
+      height: 100px;
+      position: absolute;
+      background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 145, 0), rgb(255, 255, 3), rgb(156, 248, 19));
+      z-index: 1;
+      display: flex;
+      transform: rotate(-90deg); 
+      border: 2px solid black;
+      top: 680px;
+      left: 620px;
+}
+.pantalla {
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      display: flex;
+      background-color: #00ffdd;
+      border: 2px solid black; 
+      z-index: 1;
+      top: 600px;
+      left: 450px
+}
